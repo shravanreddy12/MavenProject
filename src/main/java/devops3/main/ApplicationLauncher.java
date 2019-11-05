@@ -61,7 +61,7 @@ public class ApplicationLauncher extends AFXSpringJavaConfigLauncher {
     @Override
     public void postInit(Stage stage) {
         Scene scene = stage.getScene();
-        // add style sheet
+        // add style sheet to
         scene.getStylesheets().addAll(
                 ApplicationLauncher.class.getResource("/styles/default.css")
                         .toExternalForm()
